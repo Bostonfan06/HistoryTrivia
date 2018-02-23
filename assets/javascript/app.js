@@ -77,11 +77,13 @@ var messages = {
 	finished: "YOUR SCORE:"
 }
 
+// Start Button
 $('#startBtn').on('click', function(){
 	$(this).hide();
 	newGame();
 });
 
+// Start Over Button
 $('#startOverBtn').on('click', function(){
 	$(this).hide();
 	newGame();
