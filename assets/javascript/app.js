@@ -77,6 +77,8 @@ var messages = {
 	finished: "YOUR SCORE:"
 }
 
+
+
 // Start Button
 $('#startBtn').on('click', function(){
 	$(this).hide();
@@ -89,6 +91,14 @@ $('#startOverBtn').on('click', function(){
 	newGame();
 });
 
+// Trying to Loop Through the Array of Questions??
+for (var i = 0; i < triviaQuestions.length; i++){
+	
+	var randNum = Math.floor(Math.random() * triviaQuestions.length)
+
+}
+
+//Start of New Game
 function newGame(){
 	$('#finalMessage').empty();
 	$('#correctAnswers').empty();
@@ -125,6 +135,7 @@ function newQuestion(){
 	});
 }
 
+//Timer set to 10 seconds/Functionality
 function countdown(){
 	seconds = 10;
 	$('#timeLeft').html('<h1>Time Remaining: ' + seconds + '</h1>');
@@ -176,6 +187,7 @@ function answerPage(){
 	}	
 }
 
+//Final Scoreboard
 function scoreboard(){
 	$('#timeLeft').empty();
 	$('#message').empty();
