@@ -1,70 +1,78 @@
 var triviaQuestions = [{
-	question: "What is Sulley's full name?",
-	answerList: ["Michael J. Sullivan", "James P. Sullivan", "Sully Sullivan", "Jeff"],
-	answer: 1
-},{
-	question: "What kind of bug is Frances from 'A Bug's Life'?",
-	answerList: ["Ladybug", "Ant", "Grasshopper", "Caterpillar"],
-	answer: 0
-},{
-	question: "What's the name of Woody's boy?",
-	answerList: ["Andy", "Danny", "Max", "Sid"],
-	answer: 0
-},{
-	question: "Merida's mother changes into what after eating the enchanted cake?",
-	answerList: ["Dragon", "Witch", "Bear", "Will-o'-the-Wisp"],
-	answer: 2
-},{
-	question: "What precious cargo is Wall-E protecting?",
-	answerList: ["trash", "photos", "gold", "a plant"],
+	question: "Who was the first person to sign the Delcaration of Independence?",
+	answerList: ["Thomas Jefferson", "John Hancock", "Benjamin Franklin", "George Washington"],
 	answer: 3
 },{
-	question: "Which of the following is not an emotion showed in 'Inside Out'?",
-	answerList: ["Confusion", "Sadness", "Fear", "Disgust"],
+	question: "The first national capitol was located in what city?",
+	answerList: ["Philadelphia", "Boston", "New York", "Houston"],
+	answer: 2
+},{
+	question: "Who wrote the Star Spangled Banner?",
+	answerList: ["Betsy Ross", "Francis Scott Key", "Patrick Henry", "Thomas Jefferson"],
+	answer: 1
+},{
+	question: "What is the northeastern most state of the USA?",
+	answerList: ["New York", "Maine", "Delaware", "Vermont"],
+	answer: 1
+},{
+	question: "Where is the Sears Tower?",
+	answerList: ["Chicago", "Los Angeles", "Seattle", "Boston"],
 	answer: 0
 },{
-	question: "What is the name of Mr. Incredible's nemesis?",
-	answerList: ["Frozone", "Syndrome", "Mirage", "Elastigirl"],
-	answer: 1
+	question: "What year was the Constitution of the United States formulated?",
+	answerList: ["1787", "1776", "1800", "1659"],
+	answer: 0
 },{
-	question: "What is Nemo's mom's name?",
-	answerList: ["Pearl", "Deb", "Coral", "Dory"],
-	answer: 2
-},{
-	question: "What is the big race called in 'Cars'?",
-	answerList: ["Daytona 500", "Piston Cup", "Radiator Springs", "Route 66"],
-	answer: 1
-},{
-	question: "In 'Up', what is Russell trying to earn a badge for?",
-	answerList: ["Wild Wilderness Scouts", "Explorers of America", "Wilderness Explorer", "Boy Scouts"],
-	answer: 2
-},{
-	question: "From 'The Good Dinosaur,' what does Arlo call his pet?",
-	answerList: ["Spunky", "Spot", "Sparky", "Fido"],
-	answer: 1
-},{
-	question: "What fraternity does Mike Wazowski end up joining in college?",
-	answerList: ["Zeta Hiss Alpha", "Python Nu Kappa", "Roar Omega Roar", "Oozma Kappa"],
+	question: "What year was the Stamp Act crisis?",
+	answerList: ["1775", "1798", "1776", "1765"],
 	answer: 3
 },{
-	question: "Which of the following ISN'T a phrase when you pull on Woody's drawstring?",
-	answerList: ["Reach for the sky!", "Ride like the wind, Bullseye!", "There's a snake in my boot!", "Somebody's poisoned the water hole!"],
-	answer: 1
+	question: "The Boston Tea Party took place in?",
+	answerList: ["1773", "1812", "1770", "1900"],
+	answer: 0
 },{
-	question: "Who's your friend who like's to play...?",
-	answerList: ["Bong Bong, Bong Bong", "Ding Dong, Ding Dong", "Bing Bong, Bing Bong", "Sing Song, Sing Song"],
+	question: "Where was the first Continental Congress held?",
+	answerList: ["Charlestown", "Boston", "Philadelphia", "Gettysburg"],
 	answer: 2
 },{
-	question: "Do you think it's odd that 'Ratatouille' takes place is Paris, but the two main characters don't have accents?",
-	answerList: ["Yes! So weird!", "They don't have accents?", "Nope!", "What's a Ratatouille?"],
+	question: "Who warned the colonial militia that British General Gage was coming?",
+	answerList: ["Paul Revere", "George Washintong", "Ben Franklin", "Mel Gibson"],
 	answer: 0
+},{
+	question: "Who led the Continental Army?",
+	answerList: ["Thomas Jefferson", "George Washington", "Paul Revere", "Ben Franklin"],
+	answer: 1
+},{
+	question: "Who wrote the Declaration of Independence?",
+	answerList: ["Thomas Jefferson", "John Hancock", "George Washington", "Thomas Paine"],
+	answer: 0
+},{
+	question: "When did congress order the publication of the Declaration of Independence?",
+	answerList: ["July 4th, 1800", "July 4th, 1776", "July 4th, 1750", "July 4th, 1700"],
+	answer: 1
+},{
+	question: "Where was the Battle of Bunker Hill?",
+	answerList: ["New York", "Charlestown", "Boston", "Yorktown"],
+	answer: 2
+},{
+	question: "How many states first ratified the Constitution?",
+	answerList: ["8", "9", "10", "11"],
+	answer: 3
 }];
 
-var search = ['sully+monsters+inc', 'bugs+life', 'toy+story+andy', 'brave+bear', 'wall-e+plant', 'inside+out+emotions', 'the+incredibles+nemesis', 'finding+nemo', 'lightning+mcqueen', 'up+russell', 'the+good+dinosaur', 'monsters+university', 'toy+story+woody','bing+bong','ratatouille'];
-var currentQuestion; var correctAnswer; var incorrectAnswer; var unanswered; var seconds; var time; var answered; var userSelect;
+
+var currentQuestion; 
+var correctAnswer; 
+var incorrectAnswer; 
+var unanswered; 
+var seconds; 
+var time; 
+var answered; 
+var userSelect;
+
 var messages = {
-	correct: "Yes, that's right!",
-	incorrect: "No, that's not it.",
+	correct: "Great Job!",
+	incorrect: "Sorry, not Correct!",
 	endTime: "Out of time!",
 	finished: "YOUR SCORE:"
 }
