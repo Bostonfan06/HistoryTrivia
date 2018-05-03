@@ -1,16 +1,17 @@
-#americanflag {background: url(../images/americanflag.jpg);
-    position: absolute;
-    width: 1000px;
-    height: 500px;}
+body {
+	background: url("/Users/alexissean/Desktop/HistoryTrivia/assets/images/americanflag.jpg");
+}
 
 header{
 	margin-bottom: 20px;
 	margin-top: 100px;
-
 }
 
-#title {margin-top: 50px;
-font-size: 55px;}
+#title {
+	color: white;
+	margin-top: 50px;
+	font-size: 55px;
+}
 
 .btn-danger, #startBtn {
 	background-color: red;
@@ -25,22 +26,20 @@ font-size: 55px;}
 	position: relative;
 }
 
-
-
 .btn-primary:hover, .reset:hover{
 	background-color: red;
 }
 
 .container{
-	margin-top: 10px;
+	margin-top: 200px;
 	text-align: center;
 	height: 100%;
-    width: 900px;
     position: relative;
     color: white;
 }
 
-#timeLeft {margin-top: 35px;
+#timeLeft {
+	margin-top: 35px;
 }
 
 h2, h3, #message, #finalMessage{
