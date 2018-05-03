@@ -4,4 +4,3 @@
 
 ##### We had to create a trivia game using our knowledge with HTML, CSS, Javascript, and jQuery. Below is the link to the game. Have fun!!
 
-[American History](https://bostonfan06.github.io/HistoryTrivia/)
