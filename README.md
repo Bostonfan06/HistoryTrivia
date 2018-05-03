@@ -4,10 +4,10 @@
 
 ##### We had to create a trivia game using our knowledge with :
 
-*HTML
-*CSS
-*Javascript
-*jQuery
+1. HTML
+2. CSS
+3. Javascript
+4. jQuery
 
 ##### Below is the link to the game. Have fun!!
 
