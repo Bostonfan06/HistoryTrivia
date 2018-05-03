@@ -1,5 +1,5 @@
 body {
-	background: url("/Users/alexissean/Desktop/HistoryTrivia/assets/images/americanflag.jpg");
+	background: url("../images/americanflag.jpg");
 }
 
 header{
@@ -31,7 +31,7 @@ header{
 }
 
 .container{
-	margin-top: 200px;
+	margin-top: 150px;
 	text-align: center;
 	height: 100%;
     position: relative;
