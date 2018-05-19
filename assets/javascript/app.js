@@ -1,3 +1,4 @@
+/*All the questions in an Array/Objects*/
 var triviaQuestions = [{
 	question: "Who was the first person to sign the Delcaration of Independence?",
 	answerList: ["Thomas Jefferson", "John Hancock", "Benjamin Franklin", "George Washington"],
@@ -60,7 +61,7 @@ var triviaQuestions = [{
 	answer: 3
 }];
 
-
+/*Variables*/
 var currentQuestion; 
 var correctAnswer; 
 var incorrectAnswer; 
@@ -164,7 +165,7 @@ function answerPage(){
 	//giphy api
 	
 	
-	//checks to see correct, incorrect, or unanswered
+	//Checks to see correct, incorrect, or unanswered
 	if((userSelect == rightAnswerIndex) && (answered == true)){
 		correctAnswer++;
 		$('#message').html(messages.correct);
