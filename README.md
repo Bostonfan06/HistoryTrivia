@@ -1,14 +1,12 @@
-# HistoryTrivia
+# American History Trivia Game
 
-**This is a really fun History Trivia Game. Test your knowledge on American History**
+#### We had to create a trivia game where it shows one question at a time for the user. The user then tries to select the correct answers within a certain time frame. If the player runs out of time, then it prompts you to the next question. You will scored based on the correct amount of answers. Technologies we used are below:
 
-##### We had to create a trivia game using our knowledge with :
-
-1. HTML
-2. CSS
-3. Javascript
-4. jQuery
+* HTML
+* CSS
+* Javascript
+* jQuery
 
 ##### Below is the link to the game. Have fun!!
 
-[History Trivia Game](https://bostonfan06.github.io/HistoryTrivia/)
+[DEMO](https://bostonfan06.github.io/HistoryTrivia/)
